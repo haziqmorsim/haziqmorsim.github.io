@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'  type='text/css'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <header>
@@ -35,7 +36,8 @@
                         <img class="project-image" src="images\employee-details-2.png" alt="Employee Login">
                         <img class="project-image" src="images\employee-details-3.png" alt="Employee Signup">
                         <img class="project-image" src="images\employee-details-4.jpg" alt="Employee Position">
-                        <button class="left-button"><i class="fa fa-fw fa-square-caret-left"></i></button>
+                        <button class="left-button"><i class="fa fa-fw fa-square-caret-left" onclick="plusDiv(-1)"></i></button>
+                        <button class="right-button"><i class="fa fa-fw fa-square-caret-right" onclick="plusDiv(+1)"></i></button>
                         <br><br>
                         <h3>Project name: <b>Employee Details Website</b></h3>
                         <h3>Language(s): <b>Angular, Typescript</b></h3><br>
