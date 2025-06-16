@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Haziq Morsim - Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <link rel="icon" href="images\logo.png">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'  type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript">
+            function msg() {
+                alert("Thank you. Your enquiry is successfully submitted!");
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html"><img class="navleft" src="images\logo.png"></a>
+            </div>
+        </header>
+
+        <nav>
+            <a href="https://www.linkedin.com/in/haziqmorsim/" class="navright"><i class="fa fa-fw fa-linkedin">&nbsp;</i>LinkedIn</a>
+            <a href="projects.html" class="navright"><i class="fa fa-fw fa-folder-open"></i>Projects</a>
+            <a href="contact.html" class="navright active"><i class="fa fa-fw fa-envelope">&nbsp;</i>Contact</a>
+            <a href="resume.html" class="navright"><i class="fa fa-fw fa-suitcase">&nbsp;</i>Resume</a>
+            <a href="about.html" class="navright"><i class="fa fa-fw fa-user">&nbsp;</i>About</a>
+            <a href="index.html" class="navright"><i class="fa fa-fw fa-home">&nbsp;</i>Home</a>
+        </nav>
+
+        <main>
+            <div class="content">
+                <h2>
+                    Get in Touch!
+                </h2>
+                <p>
+                    If you have any questions or enquiries, feel free to reach me.
+                </p>
+                <div class="flex-container">
+                    <div class="form-left">
+                        <img src="images/haziq3.png" class="contact-photo">
+                        <p>
+                            <i class="fa fa-fw fa-phone"></i>&nbsp;+60 11 5111 5818
+                        </p>
+                        <p>
+                            <i class="fa fa-fw fa-envelope"></i>&nbsp;haziqmorsim@gmail.com
+                        </p>
+                        <p>
+                            <i class="fa fa-fw fa-location-arrow"></i>&nbsp;47500 Subang Jaya, Selangor
+                        </p><br>
+                        <h2>
+                            <a href="https://www.facebook.com/haziqmorsim" class="social"><i class="fa fa-fw fa-facebook-square"></i></a>
+                            <a href="https://www.twitter.com/haziqmorsim" class="social"><i class="fa fa-fw fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/haziqmorsim" class="social"><i class="fa fa-fw fa-instagram"></i></a>
+                        </h2>
+                    </div>
+                    <div class="form-right">
+                        <form action="index.html" method="post">
+                            <div>
+                                <label for="name">Name: </label><br>
+                                <input type="text" class="form-input" id="name" name="name"  placeholder="e.g., Haziq Morsim" required><br>
+                            </div><br>
+                            <div>
+                                <label for="mail">E-mail: </label><br>
+                                <input type="email" class="form-input" id="mail" name="user_mail" placeholder="e.g., abc@example.com" required>
+                            </div><br>
+                            <div>
+                                <label for="subject">Subject: </label><br>
+                                <input type="subject" class="form-input" id="subject" name="user_subject" placeholder="subject">
+                            </div><br>
+                            <div>
+                                <label for="message">Message: </label><br>
+                                <textarea id="message" class="form-input"  name="user_message" cols="50" rows="10" placeholder="Type your message here..." required></textarea>
+                            </div><br>
+                            <div>
+                                <button class="button" type="submit" name="submit" onclick="msg()">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
