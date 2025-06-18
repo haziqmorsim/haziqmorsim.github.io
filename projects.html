@@ -32,13 +32,34 @@
                 <div class="flex-container">
                     <div class="project-content">
                         <h2 class="project-title">Internship Project</h2>
-                        <img class="project-image" src="images\employee-details.jpg" alt="Employee Details">
-                        <img class="project-image" src="images\employee-details-2.png" alt="Employee Login">
-                        <img class="project-image" src="images\employee-details-3.png" alt="Employee Signup">
-                        <img class="project-image" src="images\employee-details-4.jpg" alt="Employee Position">
-                        <button class="left-button"><i class="fa fa-fw fa-arrow-left" onclick="plusDivs(-1)"></i></button>
-                        <button class="right-button"><i class="fa fa-fw fa-arrow-right" onclick="plusDivs(+1)"></i></button>
+                        <div class="slides fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img class="project-image" src="images\employee-details.jpg" alt="Employee Details">
+                            <div class="caption">Employee List Page</div>
+                        </div>
+                        <div class="slides fade">
+                            <div class="numbertext">2 / 4</div>
+                            <img class="project-image" src="images\employee-details-2.png" alt="Employee Login">
+                            <div class="caption">Login Page</div>
+                        </div>
+                        <div class="slides fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img class="project-image" src="images\employee-details-3.png" alt="Employee Signup">
+                            <div class="caption">Sign Up Page</div>
+                        </div>
+                        <div class="slides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img class="project-image" src="images\employee-details-4.jpg" alt="Employee Position">
+                            <div class="caption">Add Position Page</div>
+                        </div>
+                        <button class="left-button"><i class="fa fa-fw fa-arrow-left" onclick="plusSlides(-1)"></i></button>
+                        <button class="right-button"><i class="fa fa-fw fa-arrow-right" onclick="plusSlides(+1)"></i></button>
                         <br><br>
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
                         <h3>Project name: <b>Employee Details Website</b></h3>
                         <h3>Language(s): <b>Angular, Typescript</b></h3><br>
                         <div class="summary">
