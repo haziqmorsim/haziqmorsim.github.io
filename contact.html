@@ -9,11 +9,6 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700'  type='text/css'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script type="text/javascript">
-            function msg() {
-                alert("Thank you. Your enquiry is successfully submitted!");
-            }
-        </script>
     </head>
     <body>
         <header>
@@ -58,25 +53,25 @@
                         </h2>
                     </div>
                     <div class="form-right">
-                        <form action="index.html" method="post">
+                        <form action="email_handler.php" method="post">
                             <div>
                                 <label for="name">Name: </label><br>
-                                <input type="text" class="form-input" id="name" name="name"  placeholder="e.g., Haziq Morsim" required><br>
+                                <input type="text" class="form-input" id="name" name="name"  placeholder="E.g., Ali Abu" required><br>
                             </div><br>
                             <div>
                                 <label for="mail">E-mail: </label><br>
-                                <input type="email" class="form-input" id="mail" name="user_mail" placeholder="e.g., abc@example.com" required>
+                                <input type="email" class="form-input" id="email" name="email" placeholder="E.g., abc@example.com" required>
                             </div><br>
                             <div>
                                 <label for="subject">Subject: </label><br>
-                                <input type="subject" class="form-input" id="subject" name="user_subject" placeholder="subject">
+                                <input type="subject" class="form-input" id="subject" name="subject" placeholder="Subject">
                             </div><br>
                             <div>
                                 <label for="message">Message: </label><br>
-                                <textarea id="message" class="form-input"  name="user_message" cols="50" rows="10" placeholder="Type your message here..." required></textarea>
+                                <textarea id="message" class="form-input"  name="message" cols="50" rows="10" placeholder="Type your message here..." required></textarea>
                             </div><br>
                             <div>
-                                <button class="button" type="submit" name="submit" onclick="msg()">Submit</button>
+                                <button class="button" type="submit" name="submit" value="Submit">Submit</button>
                             </div>
                         </form>
                     </div>

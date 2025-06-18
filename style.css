@@ -32,6 +32,26 @@ body {
     cursor: pointer;
 }
 
+.left-button, .right-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.right-button {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
 .caption {
     color: #000000;
     font-size: 15px;
