@@ -34,11 +34,11 @@ body {
 
 .left-button, .right-button {
     cursor: pointer;
-    position: absolute;
-    padding: 16px;
+    text-align: center;
+    padding: 5px;
     background-color: #8c1416;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 12px;
     transition: 0.6s ease;
     user-select: none;
 }
@@ -109,7 +109,7 @@ body {
     text-align: center;
 }
 
-.dot:hover {
+.dot:hover, .dot:active {
     background-color: #000000;
 }
 
