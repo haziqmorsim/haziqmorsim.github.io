@@ -109,7 +109,7 @@ body {
     text-align: center;
 }
 
-.dot:hover, .active {
+.dot:hover {
     background-color: #000000;
 }
 
