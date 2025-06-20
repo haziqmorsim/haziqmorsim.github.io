@@ -1,43 +1,26 @@
-let slideIndex = {};
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function plusSlides(n, project) {
-    showSlides((slideIndex[project] || 1) + n, project);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-function currentSlide(n, project) {
-    showSlides(n, project);
+function currentSlide(n) {
+  showSlides(slideIndex = n);
 }
 
-function showSlides(n, project) {
-    let slides = document.querySelectorAll(`.slides[data-project="${project}"]`);
-    let dots = document.querySelectorAll(`.dot[data-project="${project}"]`);
-
-    if (slides.length === 0) return;
-
-    if (!slideIndex[project]) slideIndex[project] = 1;
-
-    if (n > slides.length) slideIndex[project] = 1;
-    else if (n < 1) slideIndex[project] = slides.length;
-    else slideIndex[project] = n;
-
-    slides.forEach((s, i) => {
-        s.style.display = (i + 1 === slideIndex[project]) ? "block" : "none";
-    });
-
-    if (dots.length > 0) {
-        dots.forEach((d, i) => {
-            d.className = d.className.replace(" active", "");
-            if (i + 1 === slideIndex[project]) d.className += " active";
-        });
-    }
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
-
-document.addEventListener("DOMContentLoaded", () => {
-    let projects = new Set();
-    document.querySelectorAll(".slides").forEach(slide => {
-        projects.add(slide.dataset.project);
-    });
-    projects.forEach(project => {
-        showSlides(1, project);
-    });
-});
