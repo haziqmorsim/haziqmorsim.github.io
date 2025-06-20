@@ -29,13 +29,17 @@ function showSlides(n, project) {
   });
 
   dots.forEach((d, i) => {
-    d.className = d.className.replace(" active", "");
+    d.className = d.className.replace(" dot-active", "");
     if (i + 1 === slideIndex[project]) {
-      d.className += " active";
+      d.className += " dot-active";
     }
   });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   initSlides("project1");
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  initSlides("project2");
 });

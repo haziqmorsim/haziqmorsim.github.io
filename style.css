@@ -44,7 +44,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 5px;
-    margin: 0 150px 0 150px;
+    margin: 0 175px 0 175px;
     background-color: #8c1416;
     color: #ffffff;
     font-size: 12px;
@@ -140,6 +140,7 @@ body {
 
 .flex-container {
     display: flex;
+    border-radius: 0 0 20px 20px;
 }
 
 .float {
@@ -317,16 +318,6 @@ nav {
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #8c1416;
-}
-
-.resume3 {
-    flex: 1;
-    padding: 2rem;
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 4px solid #8c1416;
-    border-bottom: 4px solid #8c1416;
-    border-left: 2px solid #8c1416;
 }
 
 .resume-header {
