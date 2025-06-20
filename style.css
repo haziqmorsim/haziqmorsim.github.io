@@ -10,6 +10,10 @@ a.active {
     color: #8c1416;
 }
 
+.arrows {
+    align-items: center;
+}
+
 body {
     background-image: url("images/background.png");
     background-position: center;
@@ -19,7 +23,7 @@ body {
 
 .button {
     background-color: #ffffff;
-    color: #8c1416;
+    color: #8c1416c6;
     font-weight: bold;
     padding: 0.2rem;
     border-radius: 5px;
@@ -37,7 +41,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 5px;
-    margin: 0 10px 0 10px;
+    margin: 0 100px 0 100px;
     background-color: #8c1416;
     color: #ffffff;
     font-size: 12px;
