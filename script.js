@@ -1,7 +1,7 @@
 let slideIndex = {};
 
 function plusSlides(n, project) {
-    showSlides((slideIndex[project] || 1) + n, project);
+    showSlides((slideIndex[project] = n) + n, project);
 }
 
 function currentSlide(n, project) {
@@ -26,8 +26,8 @@ function showSlides(n, project) {
 
     if (dots.length > 0) {
         dots.forEach((d, i) => {
-            d.className = d.className.replace(" active", "");
-            if (i + 1 === slideIndex[project]) d.className += " active";
+            d.className = d.className.replace(" dot-active", "");
+            if (i + 1 === slideIndex[project]) d.className += " dot-active";
         });
     }
 }

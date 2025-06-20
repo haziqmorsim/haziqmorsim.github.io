@@ -34,6 +34,7 @@ body {
 
 .left-button, .right-button {
     cursor: pointer;
+    align-items: center;
     text-align: center;
     padding: 5px;
     background-color: #8c1416;
@@ -109,7 +110,7 @@ body {
     text-align: center;
 }
 
-.dot:hover, .dot:active {
+.dot:hover, .dot-active {
     background-color: #000000;
 }
 
