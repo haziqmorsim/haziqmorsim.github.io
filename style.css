@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;;
+}
+
 a {
     text-decoration: none;
 }
@@ -14,16 +22,19 @@ body {
     background-image: url("images/background.png");
     background-position: center;
     font-family: 'Lato', sans-serif;
-    font-size: 110%;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .button {
     background-color: #ffffff;
     color: #8c1416;
     font-weight: bold;
-    padding: 0.2rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
-    padding: 5px;
+    font-size: 1rem;
 }
 
 .button:hover {
@@ -54,13 +65,14 @@ body {
 
 .caption {
     color: #000000;
-    font-size: 15px;
+    font-size: 0.9rem;
     text-align: center;
     margin-top: 5px;;
 }
 
 .column {
-    display: table-cell;
+    flex: 1 1 45%;
+    padding: 1rem;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -76,18 +88,22 @@ body {
 }
 
 .contact-photo {
-    width: 15rem;
+    width: 30%;
+    max-width: 10rem;
+    height: auto;
 }
 
 .content {
-    padding: 1rem 2rem;
+    padding: 1rem;
     vertical-align: middle;
-    margin: auto;
-    width: 75%;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 60rem;
+    height: auto;
     text-align: justify;
     color: #ffffff;
     background-color: #8c1416;
-    border-radius: 20px;
+    border-radius: 1rem;
 }
 
 .course {
@@ -132,6 +148,8 @@ body {
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .float {
@@ -146,12 +164,12 @@ body {
 }
 
 .form-left {
-    flex: 1;
+    flex: 1 1 45%;
     padding: 3rem 2rem 2rem 2rem;
 }
 
 .form-right {
-    flex: 1;
+    flex: 1 1 45%;
     padding: 2rem;
 }
 
@@ -186,13 +204,18 @@ h3, h4, h5 {
 }
 
 .image {
-    width: 27rem;
-    border-radius: 0px 20px 20px 0px;
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+    border-radius: 0 1rem 1rem 0;
     float: right;
 }
 
 input {
-    width: 75%;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
 }
 
 .input {
@@ -233,6 +256,9 @@ main {
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     padding-bottom: 8rem;
 }
 
@@ -240,19 +266,23 @@ nav {
     color: #ffffff;
     float: left;
     padding: 0.5rem;
-    width: 5%;
+    width: 3rem;
+    height: auto;
 }
 
 .navright {
     color: #ffffff;
-    float: right;
-    padding: 2rem 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
     border-bottom: 0.1rem solid #ffffff;
+    text-align: center;
 }
 
 .paper {
-    width: 75%;
-    margin: auto;
+    width: 90%;
+    max-width: 60rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .pdf {
@@ -268,16 +298,21 @@ nav {
 
 .project-content {
     flex: 1;
-    padding: 2rem;
+    width: 90%;
+    max-width: 60rem;
+    margin: 1rem auto;
+    padding: 1rem;
     background-color: #ffffff;
     color: #000000;
     border-top: 4px solid #8c1416;
     border-bottom: 4px solid #8c1416;
+    border-radius: 1rem;
 }
 
 .project-image {
-    max-width: 50%;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
+    max-height: 15rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -289,13 +324,14 @@ nav {
 }
 
 .projects {
-    padding: 2rem;
-    margin: auto;
-    width: 75%;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 60rem;
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #8c1416;
-    border-radius: 20px;
+    border-radius: 1rem;
 }
 
 #projects {
@@ -305,41 +341,43 @@ nav {
 
 .resume {
     flex: 1;
-    padding: 2rem;
+    width: 90%;
+    max-width: 60rem;
+    margin: 1rem auto;
+    padding: 1rem;
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #8c1416;
-}
-
-.resume3 {
-    flex: 1;
-    padding: 2rem;
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 4px solid #8c1416;
-    border-bottom: 4px solid #8c1416;
-    border-left: 2px solid #8c1416;
+    border-radius: 1rem;
 }
 
 .resume-header {
-    padding: 2rem;
+    width: 90%;
+    max-width: 60rem;
+    padding: 1rem;
     align-items: center;
     text-align: center;
-    margin: auto;
+    margin: 1rem auto;
     background-color: #ffffff;
     color: #000000;
     border: 2px solid #8c1416;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 1rem;
 }
 
 #resume-photo {
-    width: 10%;
+    width: 30%;
+    max-width: 10rem;
+    height: auto;
     border: solid 2px #8c1416;
     border-radius: 50%;
 }
 
 .row {
-    display: table;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
     width: 100%;
     background-position: center center;
 }
@@ -376,7 +414,7 @@ span {
 }
 
 #first {
-    font-size: 150%;
+    font-size: 1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -384,7 +422,7 @@ span {
 }
 
 #second {
-    font-size: 200%;
+    font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -392,7 +430,7 @@ span {
 }
 
 #third {
-    font-size: 400%;
+    font-size: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     margin-top: 0%;
@@ -401,7 +439,7 @@ span {
 }
 
 #fourth {
-    font-size: 200%;
+    font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -409,19 +447,56 @@ span {
 }
 
 #fifth {
-    font-size: 120%;
+    font-size: 1.2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
     margin-bottom: 0%;
 }
 
 #sixth {
-    font-size: 120%;
+    font-size: 1.2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 2%;
     margin-bottom: 0%;
 }
 
 textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
     font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .navright {
+        flex: 1 1 100%;
+        border-bottom: 0.05rem solid #ffffff;
+    }
+     .column {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .image {
+        border-radius: 1rem;
+    }
+    .form-left, .form-right {
+        flex: 1 1 100%;
+    }
+    #first, #second, #third, #fourth, #fifth, #sixth {
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+    #third {
+        font-size: 2.5rem;
+    }
 }
