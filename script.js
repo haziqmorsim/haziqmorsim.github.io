@@ -43,3 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   initSlides("project2");
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  initSlides("project3");
+});
