@@ -425,22 +425,22 @@ textarea {
     font-family: 'Lato', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-    
-}
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
 
-@media only screen and (min-width: 600px) {
-    
-}
+    nav a {
+        padding: 12px;
+        text-align: center;
+        width: 100%;
+    }
 
-@media only screen and (min-width: 768px) {
-    
-}
+    .projects {
+        padding: 10px;
+    }
 
-@media only screen and (min-width: 992px) {
-    
-}
-
-@media only screen and (min-width: 1200px) {
-    
+    .summary {
+        font-size: 14px;
+    }
 }
