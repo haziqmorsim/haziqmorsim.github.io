@@ -64,7 +64,10 @@ body {
 }
 
 .column {
-    display: table-cell;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -196,8 +199,9 @@ h3, h4, h5 {
 
 .image {
     width: 27rem;
-    border-radius: 0px 20px 20px 0px;
-    float: right;
+    height: auto;
+    object-fit: cover;
+    border-radius:10px;
 }
 
 input {
@@ -213,8 +217,12 @@ input {
     color: #ffffff;
     padding: 2rem;
     background-color: #8c1416;
-    background-size: contain;
-    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
 }
 
 .location {
@@ -233,8 +241,12 @@ main {
 }
 
 #myself {
-    vertical-align: middle;
     color: #ffffff;
+    padding: 2rem;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #name {
@@ -338,7 +350,8 @@ nav {
 }
 
 .row {
-    display: table;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     background-position: center center;
 }
@@ -350,10 +363,6 @@ nav {
 .social:hover {
     color: #000000;
 }
-
-/* .slides {
-    display: none;
-} */
 
 span {
     font-style: italic;
@@ -376,7 +385,7 @@ span {
 
 #first {
     font-size: 150%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: left;
@@ -384,7 +393,7 @@ span {
 
 #second {
     font-size: 200%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: left;
@@ -392,7 +401,7 @@ span {
 
 #third {
     font-size: 400%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', sans-serif;
     font-style: italic;
     margin-top: 0%;
     margin-bottom: 5%;
@@ -401,7 +410,7 @@ span {
 
 #fourth {
     font-size: 200%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: right;
@@ -409,14 +418,14 @@ span {
 
 #fifth {
     font-size: 120%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 2%;
     margin-bottom: 0%;
 }
 
 #sixth {
     font-size: 120%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 2%;
     margin-bottom: 0%;
 }
@@ -446,35 +455,6 @@ textarea {
         border-bottom: none;
     }
 
-    .projects, .content, .resume, .resume-header, .project-content {
-        width: 95%;
-        padding: 1rem;
-        border-radius: 10px;
-    }
-
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .image, .float, .contact-photo {
-        width: 100%;
-        float: none;
-        margin: 0 auto;
-        display: block;
-        border-radius: 10px;
-    }
-
-    .project-image {
-        max-width: 95%;
-        height: auto;
-    }
-
-    .left-button, .right-button {
-        margin: 10px;
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-
     .arrows {
         display: flex;
         justify-content: center;
@@ -487,6 +467,15 @@ textarea {
         margin-top: 10px;
     }
 
+    #first, #second, #third, #fourth, #fifth, #sixth {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
     .form-input, #message, input {
         width: 95%;
         font-size: 16px;
@@ -496,26 +485,61 @@ textarea {
         padding: 1rem;
     }
 
-    .summary {
+    .image {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .image, .float, .contact-photo {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+    }
+
+    #intro {
+        border-radius: 20px 20px 0 0;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .left-button, .right-button {
+        margin: 10px;
+        padding: 10px 20px;
         font-size: 14px;
-        line-height: 1.5;
+    }
+
+    #myself {
+        border-radius: 0 0 20px 20px;
+        padding: 1.5rem;
+    }
+
+    .projects, .content, .resume, .resume-header, .project-content {
+        width: 95%;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .project-image {
+        max-width: 95%;
+        height: auto;
     }
 
     #resume-photo {
         width: 30%;
     }
+    
+    .row {
+        flex-direction: column;
+    }
+    
+    .summary {
+        font-size: 14px;
+        line-height: 1.5;
+    }
 
     .welcome {
         width: 90%;
-    }
-
-     #first, #second, #third, #fourth, #fifth, #sixth {
-        font-size: 100%;
-        text-align: center;
-    }
-
-    .row {
-        display: block;
-        width: 100%;
-    }
+    } 
 }
