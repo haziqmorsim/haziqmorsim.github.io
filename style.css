@@ -426,21 +426,96 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        font-size: 100%;
+        background-size: cover;
+    }
+    
     nav {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem 0;
     }
 
     nav a {
-        padding: 12px;
+        float: none;
+        padding: 10px;
         text-align: center;
         width: 100%;
+        border-bottom: none;
     }
 
-    .projects {
-        padding: 10px;
+    .projects, .content, .resume, .resume-header, .project-content {
+        width: 95%;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .image, .float, .contact-photo {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .project-image {
+        max-width: 95%;
+        height: auto;
+    }
+
+    .left-button, .right-button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .arrows {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .dots {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .form-input, #message, input {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .form-left, .form-right {
+        padding: 1rem;
     }
 
     .summary {
         font-size: 14px;
+        line-height: 1.5;
+    }
+
+    #resume-photo {
+        width: 30%;
+    }
+
+    .welcome {
+        width: 90%;
+    }
+
+     #first, #second, #third, #fourth, #fifth, #sixth {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .row {
+        display: block;
+        width: 100%;
     }
 }
