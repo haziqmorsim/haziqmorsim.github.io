@@ -274,14 +274,28 @@ main {
 }
 
 nav {
-    padding-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 .navleft {
     color: #ffffff;
-    float: left;
+    float: none;
+    margin-right: auto;
     padding: 0.5rem;
-    width: 5%;
+    width: 40px;
 }
 
 .navright {
@@ -460,19 +474,18 @@ textarea {
         background-size: cover;
     }
     
-    nav {
-        display: flex;
+     nav {
         flex-wrap: wrap;
-        justify-content: center;
-        padding: 1rem 0;
+        justify-content: space-between;
     }
 
     nav a {
-        float: none;
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-        border-bottom: none;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .navleft {
+        width: 35px;
     }
 
     .arrows {
