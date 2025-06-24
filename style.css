@@ -225,6 +225,26 @@ input {
     background-repeat: no-repeat; */
 }
 
+#intro .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    color: #8c1416;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#intro .button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 .location {
     font-size: medium;
     padding-top: 0;
