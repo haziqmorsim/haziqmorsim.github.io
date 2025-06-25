@@ -251,11 +251,37 @@ input {
     margin-bottom: 0;
 }
 
+main {
+    padding: 1rem;
+}
+
+#message {
+    width: 75%;
+}
+
+#myself {
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    margin-bottom: 0;
+}
+
+nav {
+    padding-bottom: 8rem;
+}
+
 .navleft {
     color: #ffffff;
-    float: left;
+    float: none;
+    margin-right: auto;
     padding: 0.5rem;
-    width: 5%;
+    width: 40px;
 }
 
 .navright {
@@ -433,26 +459,11 @@ textarea {
     }
 
     nav a {
-        font-size: 0.9rem;
-        padding: 0.5rem;
-    }
-
-    .navleft {
-        width: 35px;
-    }
-    
-     nav {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    nav a {
-        font-size: 0.9rem;
-        padding: 0.5rem;
-    }
-
-    .navleft {
-        width: 35px;
+        float: none;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        border-bottom: none;
     }
 
     .arrows {
