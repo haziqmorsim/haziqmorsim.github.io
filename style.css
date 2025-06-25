@@ -527,13 +527,16 @@ textarea {
 
     #intro, #myself {
         width: 100%;
-        border-radius: 10px;
         padding: 1rem;
-        margin: 0.5rem;
     }
 
     #intro {
         text-align: center;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #myself {
+        border-radius: 0 0 10px 10px;
     }
 
     .image {
