@@ -278,10 +278,9 @@ nav {
 
 .navleft {
     color: #ffffff;
-    float: none;
-    margin-right: auto;
+    float: left;
     padding: 0.5rem;
-    width: 40px;
+    width: 5%;
 }
 
 .navright {
@@ -453,9 +452,11 @@ textarea {
         background-size: cover;
     }
     
-     nav {
+    nav {
+        display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        padding: 1rem 0;
     }
 
     nav a {
