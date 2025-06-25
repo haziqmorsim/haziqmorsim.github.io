@@ -277,6 +277,10 @@ nav {
     padding-bottom: 8rem;
 }
 
+.nav-text {
+    font-style: normal;
+}
+
 .navleft {
     color: #ffffff;
     float: left;
