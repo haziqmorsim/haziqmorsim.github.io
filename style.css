@@ -226,6 +226,7 @@ input {
 
 #intro .button {
     margin-top: 20px;
+    width: fit-content;
     padding: 10px 20px;
     font-size: 1rem;
     text-align: center;
