@@ -63,6 +63,14 @@ body {
     margin-top: 5px;;
 }
 
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+}
+
 .contact {
     align-items: center;
     text-align: center;
@@ -204,17 +212,8 @@ input {
     padding: 0.5rem;
 }
 
-#intro-image {
-    width: 50vw;
-    height: 30vh;
-    float: right;
-    border-radius: 0 20px 20px 0;
-}
-
-#intro-text {
-    width: 50vw;
-    height: 30vh;
-    float: left;
+#intro {
+    vertical-align: middle;
     color: #ffffff;
     padding: 2rem;
     background-color: #8c1416;
@@ -222,9 +221,11 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
 }
 
-#intro-text .button {
+#intro .button {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -366,6 +367,13 @@ nav {
     width: 10%;
     border: solid 2px #8c1416;
     border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-position: center center;
 }
 
 .social {
@@ -540,6 +548,10 @@ textarea {
 
     #resume-photo {
         width: 30%;
+    }
+    
+    .row {
+        flex-direction: column;
     }
     
     .summary {
