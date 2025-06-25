@@ -553,13 +553,22 @@ textarea {
         padding: 0.5rem 1rem;
     }
 
-    #first, #second, #third, #fourth, #fifth, #sixth {
+    #first, #fifth, #sixth {
         font-size: 1rem;
         text-align: center;
     }
 
+    #second, #fourth {
+        font-size: 1.5rem;
+    }
+
+    #fourth {
+        text-align: right;
+    }
+
     #third {
         font-size: 2rem;
+        text-align: center;
         margin: 0.5rem 0;
     }
 
