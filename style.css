@@ -491,14 +491,15 @@ textarea {
         justify-content: flex-end;
     }
 
+    .nav-links a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
     .nav-text {
         display: none;
-    }
-
-    .nav-divider {
-        border: none;
-        border-top: 1px solid #ffffff;
-        margin: 0.3rem 0 0 0;
     }
 
     /* .arrows {
