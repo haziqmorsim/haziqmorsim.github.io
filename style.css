@@ -63,14 +63,6 @@ body {
     margin-top: 5px;;
 }
 
-.column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 20px 0px 0px 20px;
-}
-
 .contact {
     align-items: center;
     text-align: center;
@@ -212,8 +204,17 @@ input {
     padding: 0.5rem;
 }
 
-#intro {
-    vertical-align: middle;
+#intro-image {
+    width: 50vw;
+    height: 30vh;
+    float: right;
+    border-radius: 0 20px 20px 0;
+}
+
+#intro-text {
+    width: 50vw;
+    height: 30vh;
+    float: left;
     color: #ffffff;
     padding: 2rem;
     background-color: #8c1416;
@@ -221,11 +222,9 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-size: contain;
-    background-repeat: no-repeat; */
 }
 
-#intro .button {
+#intro-text .button {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -250,31 +249,6 @@ input {
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 0;
-}
-
-main {
-    padding: 1rem;
-}
-
-#message {
-    width: 75%;
-}
-
-#myself {
-    color: #ffffff;
-    padding: 2rem;
-    border-radius: 0 20px 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#name {
-    margin-bottom: 0;
-}
-
-nav {
-    padding-bottom: 8rem;
 }
 
 .navleft {
@@ -369,13 +343,6 @@ nav {
     border-radius: 50%;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background-position: center center;
-}
-
 .social {
     color: #ffffff;
 }
@@ -460,19 +427,32 @@ textarea {
         background-size: cover;
     }
     
-    nav {
-        display: flex;
+     nav {
         flex-wrap: wrap;
-        justify-content: center;
-        padding: 1rem 0;
+        justify-content: space-between;
     }
 
     nav a {
-        float: none;
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-        border-bottom: none;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .navleft {
+        width: 35px;
+    }
+    
+     nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .navleft {
+        width: 35px;
     }
 
     .arrows {
@@ -547,10 +527,6 @@ textarea {
 
     #resume-photo {
         width: 30%;
-    }
-    
-    .row {
-        flex-direction: column;
     }
     
     .summary {
