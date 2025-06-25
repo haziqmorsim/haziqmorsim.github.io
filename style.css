@@ -224,7 +224,7 @@ input {
     box-sizing: border-box;
 }
 
-#intro .button, a:visited {
+#intro .button, #intro .button:visited {
     margin-top: 20px;
     width: fit-content;
     padding: 10px 20px;
@@ -477,7 +477,7 @@ textarea {
 
     .navleft {
         flex: 0 0 auto;
-        width: 10%;
+        width: 20%;
     }
 
     .nav-links {
