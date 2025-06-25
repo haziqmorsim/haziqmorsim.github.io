@@ -213,7 +213,6 @@ input {
 }
 
 #intro {
-    /* vertical-align: middle; */
     background-color: #8c1416;
     color: #ffffff;
     padding: 2rem;
@@ -223,12 +222,9 @@ input {
     justify-content: center;
     width: 50%;
     box-sizing: border-box;
-    /* background-size: contain;
-    background-repeat: no-repeat; */
 }
 
 #intro .button {
-    display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1rem;
@@ -264,7 +260,6 @@ main {
 
 #myself {
     background-color: #ffffff;
-    /* padding: 2rem; */
     border-radius: 0 20px 20px 0;
     display: flex;
     justify-content: center;
@@ -379,7 +374,6 @@ nav {
     align-items: stretch;
     flex-wrap: wrap;
     width: 85%;
-    /* background-position: center center; */
 }
 
 .social {
