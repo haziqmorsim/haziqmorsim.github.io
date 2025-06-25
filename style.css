@@ -481,9 +481,9 @@ textarea {
         font-size: 0.9rem;
     }
 
-    .nav-logo {
+    .nav-eft {
         flex: 0 0 auto;
-        width: 3rem;
+        width: 10%;
     }
 
     .nav-links {
