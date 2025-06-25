@@ -24,7 +24,7 @@ body {
     font-size: 110%;
 }
 
-.button, .button:visited {
+.button {
     background-color: #ffffff;
     color: #8c1416c6;
     font-weight: bold;
@@ -224,7 +224,7 @@ input {
     box-sizing: border-box;
 }
 
-#intro .button {
+#intro .button, a:visited {
     margin-top: 20px;
     width: fit-content;
     padding: 10px 20px;
@@ -279,6 +279,7 @@ nav {
 
 .nav-text {
     font-weight: normal;
+    font-style: normal;
 }
 
 .navleft {
@@ -449,13 +450,6 @@ span {
     margin-bottom: 0%;
 }
 
-#sixth {
-    font-size: 120%;
-    font-family: 'Lato', sans-serif;
-    margin-top: 2%;
-    margin-bottom: 0%;
-}
-
 textarea {
     font-family: 'Lato', sans-serif;
 }
@@ -553,9 +547,9 @@ textarea {
         padding: 0.5rem 1rem;
     }
 
-    #first, #fifth, #sixth {
+    #first, #fifth {
         font-size: 1rem;
-        text-align: center;
+        text-align: left;
     }
 
     #second, #fourth {
