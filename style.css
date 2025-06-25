@@ -10,10 +10,6 @@ a.active {
     color: #8c1416;
 }
 
-a:visited {
-    color: #8c1416;
-}
-
 .arrows {
     align-items: center;
     text-align: center;
