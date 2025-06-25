@@ -483,12 +483,13 @@ textarea {
 
     .nav-logo {
         flex: 0 0 auto;
+        width: 3rem;
     }
 
     .nav-links {
         display: flex;
         flex: 1;
-        justify-content: flex-end;
+        float: right;
     }
 
     .nav-links a {
