@@ -530,6 +530,7 @@ textarea {
     .projects, .content, .resume, .resume-header, .project-content {
         width: 95%;
         padding: 1rem;
+        border-radius: 10px;
     }
 
     .project-image {
