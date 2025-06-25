@@ -463,7 +463,7 @@ textarea {
         flex-wrap: no-wrap;
         align-items: center;
         justify-content: space-between;
-        padding: 0.5rem 1re,;
+        padding: 0.5rem 1rem;
     }
 
     nav a {
@@ -473,6 +473,10 @@ textarea {
         width: auto;
         border-bottom: none;
         font-size: 0.9rem;
+    }
+
+    .nav-text {
+        display: none;
     }
 
     /* .arrows {
