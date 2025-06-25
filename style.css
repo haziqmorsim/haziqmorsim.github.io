@@ -460,11 +460,13 @@ textarea {
     font-family: 'Lato', sans-serif;
 }
 
+/* ------------------------------------------------ Mobile view media queries ------------------------------------------------ */
+
 @media only screen and (max-width: 768px) {
 
     nav {
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: space-between;
         padding: 0.5rem 1rem;
@@ -479,8 +481,24 @@ textarea {
         font-size: 0.9rem;
     }
 
+    .nav-logo {
+        flex: 0 0 auto;
+    }
+
+    .nav-links {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
     .nav-text {
         display: none;
+    }
+
+    .nav-divider {
+        border: none;
+        border-top: 1px solid #ffffff;
+        margin: 0.3rem 0 0 0;
     }
 
     /* .arrows {
