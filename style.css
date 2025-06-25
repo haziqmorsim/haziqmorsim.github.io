@@ -24,7 +24,7 @@ body {
     font-size: 110%;
 }
 
-.button {
+.button, .button:visited {
     background-color: #ffffff;
     color: #8c1416c6;
     font-weight: bold;
