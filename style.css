@@ -481,7 +481,7 @@ textarea {
         font-size: 0.9rem;
     }
 
-    .nav-eft {
+    .navleft {
         flex: 0 0 auto;
         width: 10%;
     }
@@ -663,9 +663,5 @@ textarea {
     .contact-photo {
         width: 60%;
         margin: 0 auto;
-    }
-
-    .logo {
-        height: 2rem;
     }
 }
