@@ -10,6 +10,10 @@ a.active {
     color: #8c1416;
 }
 
+a:visited {
+    color: #8c1416;
+}
+
 .arrows {
     align-items: center;
     text-align: center;
@@ -339,7 +343,7 @@ nav {
     border-radius: 20px;
 }
 
-#projects {
+.projects-description {
     padding-bottom: 15px;
     text-align: center;
 }
