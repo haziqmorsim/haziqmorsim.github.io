@@ -370,6 +370,7 @@ nav {
 
 .row {
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
