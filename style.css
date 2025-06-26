@@ -224,7 +224,7 @@ input {
     box-sizing: border-box;
 }
 
-#intro .button, #intro .button:visited {
+#intro .button, #intro .a:visited {
     margin-top: 20px;
     width: fit-content;
     padding: 10px 20px;
@@ -282,6 +282,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
 }
 
 .logo img {
@@ -298,6 +299,14 @@ nav {
   text-decoration: none;
   font-size: 18px;
   padding: 0.5rem;
+}
+
+.nav-links a.active {
+  color: #8c1416;  
+}
+
+.nav-links a:hover {
+  color: #8c1416;  
 }
 
 .nav-line {
@@ -528,6 +537,7 @@ textarea {
     /*-------------------------------------------*/
     nav {
     flex-wrap: nowrap;
+    margin-bottom: 1rem;
   }
 
   .nav-links {
@@ -592,6 +602,7 @@ textarea {
         height: auto;
         border-radius: 10px;
         object-fit: cover;
+        margin: 0;
     }
 
     .button {
