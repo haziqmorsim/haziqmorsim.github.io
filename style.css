@@ -282,7 +282,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
 }
 
 .logo img {
@@ -313,7 +312,7 @@ nav {
   border: none;
   height: 2px;
   background-color: #ffffff;
-  margin: 0;
+  margin-bottom: 1rem;
 }
 /*--------------------------------------*/
 .nav-text {
@@ -419,7 +418,7 @@ nav {
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    width: 85%;
+    width: 75%;
 }
 
 .social {
