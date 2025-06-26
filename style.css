@@ -291,6 +291,7 @@ nav {
 .nav-links {
   display: flex;
   gap: 20px;
+  border-bottom: 2px solid #fff;
 }
 
 .nav-links a {
