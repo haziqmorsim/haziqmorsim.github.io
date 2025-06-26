@@ -647,7 +647,6 @@ textarea {
     }
 
     .flex-container {
-        width: 90%;
         flex-direction: column;
     }
 
@@ -680,6 +679,10 @@ textarea {
 
     .resume-header {
         border-radius: 10px 10px 0 0;
+    }
+
+    .resume-header h3 {
+        font-size: small;
     }
 
     .resume, .resume-header {
@@ -735,7 +738,7 @@ textarea {
     }
 
     .contact p i {
-        display: block;
+        display: inline;
         margin: 0.5rem 0;;
     }
 
