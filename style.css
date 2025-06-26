@@ -722,6 +722,15 @@ textarea {
         font-size: o.9rem;
     }
 
+    .contact p {
+        text-align: center;
+    }
+
+    .contact p i {
+        display: block;
+        margin: 0.5rem 0;;
+    }
+
     .contact-photo {
         width: 60%;
         margin: 0 auto;
