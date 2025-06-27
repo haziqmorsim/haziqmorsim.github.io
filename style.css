@@ -583,7 +583,8 @@ textarea {
     }
 
     .row {
-        width: 100%;
+        width: 90%;
+        padding: 1rem;
     }
 
     #intro, #myself {
@@ -636,7 +637,7 @@ textarea {
 
     .content {
         padding: 1rem;
-        width: 100%;
+        width: 90%;
         border-radius: 10px;
     }
 
@@ -702,6 +703,11 @@ textarea {
         border-radius: 50%;
     }
 
+    .paper {
+        width: 90%;
+        padding: 1rem;
+    }
+
     .projects, .project-content {
         width: 100%;
         padding: 0.5rem;
@@ -737,8 +743,7 @@ textarea {
         width: 90%;
     }  */
 
-    main, .paper {
-        padding: 1rem;
+    main {
         width: 100%;
     }
 
