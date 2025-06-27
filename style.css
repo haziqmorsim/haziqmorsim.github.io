@@ -762,7 +762,7 @@ textarea {
     } */
     
     .summary {
-        font-size: 0.95rem;
+        font-size: 1rem;
         line-height: 1.6;
     }
 
@@ -786,7 +786,7 @@ textarea {
     .contact p {
         text-align: center;
         flex-direction: column;
-        line-height: 1.5;
+        line-height: 1.6;
         margin-bottom: 0.5rem;
     }
 
