@@ -690,7 +690,7 @@ textarea {
     }
 
     .resume-header h2 {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 
     .resume-header h3 {
@@ -760,6 +760,7 @@ textarea {
     .contact p {
         text-align: center;
         flex-direction: column;
+        line-height: 1.5;
         margin-bottom: 0.5rem;
     }
 
