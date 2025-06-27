@@ -650,7 +650,7 @@ textarea {
         flex-direction: column;
     }
 
-    .form-right {
+    .form-left, .form-right {
         padding-top: 0;
     }
 
