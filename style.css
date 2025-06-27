@@ -758,6 +758,10 @@ textarea {
         line-height: 1.6;
     }
 
+    .to-center {
+        margin: 0;
+    }
+
     /* .welcome {
         width: 90%;
     }  */
