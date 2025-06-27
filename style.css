@@ -541,7 +541,6 @@ textarea {
   }
 
   .nav-links {
-    flex: 1;
     display: flex;
     justify-content: flex-end;
     gap: 5px;
