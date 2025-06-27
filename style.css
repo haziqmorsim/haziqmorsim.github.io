@@ -728,6 +728,7 @@ textarea {
 
     #project4-image {
         max-width: 75%;
+        height: auto;
     }
     
     /* .row {
