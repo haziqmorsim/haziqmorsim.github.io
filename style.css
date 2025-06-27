@@ -682,11 +682,11 @@ textarea {
     }
 
     .resume-header h2 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .resume-header h3 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .resume, .resume-header {
@@ -739,6 +739,7 @@ textarea {
 
     .contact p {
         text-align: center;
+        display: block;
         margin-bottom: 0.5rem;
     }
 
