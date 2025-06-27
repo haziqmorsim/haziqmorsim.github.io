@@ -715,7 +715,7 @@ textarea {
         padding: 1rem;
     }
 
-    .projects, .project-content {
+    .projects {
         width: 90%;
         padding: 0.5rem;
     }
@@ -736,6 +736,11 @@ textarea {
     .project3-image {
         max-width: 75%;
         height: auto;
+    }
+
+    .project-content {
+        width: 100%;
+        padding: 0.5rem;
     }
     
     /* .row {
