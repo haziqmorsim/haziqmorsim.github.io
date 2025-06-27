@@ -251,6 +251,10 @@ input {
     margin-bottom: 0;
 }
 
+.logo img {
+    height: 40px;
+}
+
 main {
     padding: 1rem;
 }
@@ -273,20 +277,12 @@ main {
     margin-bottom: 0;
 }
 
-/* nav {
-    padding-bottom: 8rem;
-} */
-/*------------------------------------*/
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
-}
-
-.logo img {
-    height: 40px;
 }
 
 .nav-links {
@@ -316,7 +312,7 @@ nav {
   background-color: #ffffff;
   margin-bottom: 1rem;
 }
-/*--------------------------------------*/
+
 .nav-text {
     font-weight: normal;
     font-style: normal;
@@ -441,6 +437,10 @@ span {
     line-height: 150%;
 }
 
+textarea {
+    font-family: 'Lato', sans-serif;
+}
+
 .to-center {
     display: flex;
     justify-content: center;
@@ -490,127 +490,9 @@ span {
     margin-bottom: 0%;
 }
 
-textarea {
-    font-family: 'Lato', sans-serif;
-}
-
 /* ------------------------------------------------ Mobile view media queries ------------------------------------------------ */
 
 @media only screen and (max-width: 768px) {
-
-    /* nav {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-    }
-
-    nav a {
-        float: none;
-        padding: 0.5rem;
-        text-align: center;
-        width: auto;
-        border-bottom: none;
-        font-size: 0.9rem;
-    }
-
-    .navleft {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-
-    .nav-links {
-        display: flex;
-        flex: 1;
-        float: right;
-    }
-
-    .nav-links a {
-        display: flex;
-        flex: 1;
-        float: right;
-        color: #ffffff;
-        font-size: 1.2rem;
-        text-decoration: none;
-        border-bottom: none;
-  } */
-    /*-------------------------------------------*/
-    nav {
-    flex-wrap: nowrap;
-    margin-bottom: 1rem;
-  }
-
-  .nav-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 5px;
-  }
-
-  .nav-links a {
-    font-size: 20px;
-    padding: 0.5rem;
-  }
-
-  .nav-links a span {
-    display: none;
-  }
-    /*-------------------------------------------*/
-
-    .nav-text {
-        display: none;
-    }
-
-    /* .arrows {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin: 20px 0;
-    }
-
-    .dots {
-        text-align: center;
-        margin-top: 10px;
-    } */
-
-    .logo img{
-        height: 25px;
-    }
-
-    .row, .to-center {
-        width: 100%;
-        padding: 0;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .row {
-        width: 90%;
-        padding: 1rem;
-    }
-
-    #intro, #myself {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    #intro {
-        text-align: center;
-        border-radius: 10px 10px 0 0;
-    }
-
-    #myself {
-        border-radius: 0 0 10px 10px;
-    }
-
-    .image {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        object-fit: cover;
-        margin: 0;
-    }
 
     .button {
         margin: 1rem auto;
@@ -619,29 +501,32 @@ textarea {
         padding: 0.5rem 1rem;
     }
 
-    #first, #fifth {
-        font-size: 1rem;
-        text-align: left;
-    }
-
-    #second, #fourth {
-        font-size: 1.5rem;
-    }
-
-    #fourth {
-        text-align: right;
-    }
-
-    #third {
-        font-size: 2rem;
-        text-align: center;
-        margin: 0.5rem 0;
+    .caption {
+        font-size: o.9rem;
     }
 
     .content {
         padding: 1rem;
         width: 90%;
         border-radius: 10px;
+    }
+
+    .contact p {
+        text-align: center;
+        flex-direction: column;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact p i {
+        display: inline;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .contact-photo {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
     }
 
     .flex-container {
@@ -661,6 +546,28 @@ textarea {
         text-align: left;
     }
 
+     h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    .image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+     #intro, #myself {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    #intro {
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+    }
+
     .left-button, .right-button {
         margin: 0;
     }
@@ -674,52 +581,39 @@ textarea {
         padding-left: 5px;
     }
 
-    /* .form-input, #message, input {
-        width: 95%;
-        font-size: 16px;
+    .logo img{
+        height: 25px;
     }
 
-    .form-left, .form-right {
-        padding: 1rem;
+     #myself {
+        border-radius: 0 0 10px 10px;
     }
 
-    .image, .float, .contact-photo {
-        width: 100%;
-        float: none;
-        margin: 0 auto;
-        display: block;
-        border-radius: 10px;
+    nav {
+        flex-wrap: nowrap;
+        margin-bottom: 1rem;
     }
 
-    .left-button, .right-button {
-        margin: 10px;
-        padding: 10px 20px;
-        font-size: 14px;
-    } */
-    
-    .resume-header {
-        border-radius: 10px 10px 0 0;
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+    padding: 0.5rem;
+  }
+
+  .nav-links a span {
+    display: none;
+  }
+
+    .nav-text {
+        display: none;
     }
 
-    .resume-header h2 {
-        font-size: 1.2rem;
-    }
-
-    .resume-header h3 {
-        font-size: 1rem;
-    }
-
-    .resume, .resume-header {
-        padding: 1rem;
-    }
-
-    #resume-photo {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-    }
-
-    .paper {
+     .paper {
         width: 90%;
         padding: 1rem;
     }
@@ -757,12 +651,43 @@ textarea {
         width: 100%;
         padding: 0.5rem;
     }
-    
-    /* .row {
+
+    .resume-header {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .resume-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .resume-header h3 {
+        font-size: 1rem;
+    }
+
+    .resume, .resume-header {
+        padding: 1rem;
+    }
+
+    #resume-photo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .row, .to-center {
+        width: 100%;
+        padding: 0;
         flex-direction: column;
-    } */
-    
-    .summary {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row {
+        width: 90%;
+        padding: 1rem;
+    }
+
+     .summary {
         font-size: 1rem;
         line-height: 1.6;
     }
@@ -771,34 +696,23 @@ textarea {
         margin: 0;
     }
 
-    /* .welcome {
-        width: 90%;
-    }  */
+    #first, #fifth {
+        font-size: 1rem;
+        text-align: left;
+    }
 
-    
-    h1, h2, h3 {
+    #second, #fourth {
         font-size: 1.5rem;
     }
 
-    .caption {
-        font-size: o.9rem;
+    #fourth {
+        text-align: right;
     }
 
-    .contact p {
+    #third {
+        font-size: 2rem;
         text-align: center;
-        flex-direction: column;
-        line-height: 1.6;
-        margin-bottom: 0.5rem;
+        margin: 0.5rem 0;
     }
 
-    .contact p i {
-        display: inline;
-        margin: 0.5rem 0.5rem;
-    }
-
-    .contact-photo {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-    }
 }
