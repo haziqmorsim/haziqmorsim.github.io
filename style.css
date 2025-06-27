@@ -692,6 +692,10 @@ textarea {
         font-size: 14px;
     } */
 
+    .resume {
+        display: block;
+    }
+
     .resume-header {
         border-radius: 10px 10px 0 0;
     }
