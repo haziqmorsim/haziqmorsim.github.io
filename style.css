@@ -755,7 +755,7 @@ textarea {
 
     .contact p {
         text-align: center;
-        display: block;
+        flex-direction: column;
         margin-bottom: 0.5rem;
     }
 
