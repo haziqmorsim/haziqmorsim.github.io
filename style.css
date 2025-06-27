@@ -728,6 +728,10 @@ textarea {
         padding: 0.5rem;
     }
 
+    .projects .flex-container {
+        width: 90%;
+    }
+
     .projects h2 {
         font-size: 1.25rem;
     }
