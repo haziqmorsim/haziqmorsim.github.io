@@ -648,20 +648,24 @@ textarea {
         margin: 0 auto 1rem;
     }
 
-    .flex-container {
-        flex-direction: column;
-    }
-
     .form-left, .form-right {
         padding-top: 0;
+    }
+
+    .form-left p {
+        text-align: left;
     }
 
     .left-button, .right-button {
         margin: 0;
     }
 
+    .left-button:hover, .right-button:hover {
+        background-color: #8c1416;
+    }
+
     li {
-        margin-left: 5px;
+        margin-left: 10px;
         padding-left: 5px;
     }
 
@@ -731,11 +735,13 @@ textarea {
     .project-image {
         max-width: 100%;
         height: auto;
+        margin: 0 auto;
     }
 
     .project3-image {
-        max-width: 75%;
+        max-width: 65%;
         height: auto;
+        margin: 0 auto;
     }
 
     .project-content {
@@ -779,6 +785,7 @@ textarea {
 
     .contact-photo {
         width: 60%;
+        display: block;
         margin: 0 auto;
     }
 }
