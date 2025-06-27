@@ -583,7 +583,7 @@ textarea {
     }
 
     .row {
-        width: 90%;
+        width: 100%;
     }
 
     #intro, #myself {
@@ -636,7 +636,7 @@ textarea {
 
     .content {
         padding: 1rem;
-        width: 90%;
+        width: 100%;
         border-radius: 10px;
     }
 
@@ -647,6 +647,10 @@ textarea {
 
     .flex-container {
         flex-direction: column;
+    }
+
+    .left-button, .right-button {
+        margin: 0;
     }
 
     li {
@@ -698,15 +702,26 @@ textarea {
         border-radius: 50%;
     }
 
-    .project, .project-content {
-        width: 90%;
-        padding: 1rem;
-        border-radius: 10px;
+    .projects, .project-content {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .projects h2 {
+        font-size: 1.25rem;
+    }
+
+    .projects h3 {
+        font-size: 1rem;
     }
 
     .project-image {
         max-width: 100%;
         height: auto;
+    }
+
+    #project4-image {
+        max-width: 75%;
     }
     
     /* .row {
@@ -724,7 +739,7 @@ textarea {
 
     main, .paper {
         padding: 1rem;
-        width: 90%;
+        width: 100%;
     }
 
     h1, h2, h3 {
