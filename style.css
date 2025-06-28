@@ -366,6 +366,15 @@ nav {
     border: 2px solid #8c1416;
 }
 
+.project3-image {
+    max-width: 60%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #8c1416;
+    }
+
 .project-title {
     text-decoration: underline;
 }
@@ -577,7 +586,7 @@ textarea {
     }
 
     li {
-        margin-left: 10px;
+        margin-left: 15px;
         padding-left: 5px;
     }
 
@@ -644,7 +653,8 @@ textarea {
     .project3-image {
         max-width: 65%;
         height: auto;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .project-content {
