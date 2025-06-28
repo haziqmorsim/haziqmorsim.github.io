@@ -603,20 +603,20 @@ textarea {
         margin-bottom: 1rem;
     }
 
-  .nav-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 5px;
-  }
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+    }
 
-  .nav-links a {
-    font-size: 20px;
-    padding: 0.5rem;
-  }
+    .nav-links a {
+        font-size: 20px;
+        padding: 0.5rem;
+    }
 
-  .nav-links a span {
-    display: none;
-  }
+    .nav-links a span {
+        display: none;
+    }
 
     .nav-text {
         display: none;
@@ -763,6 +763,7 @@ textarea {
 }
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
+    
     #intro, #myself {
         width: auto;
     }
@@ -782,6 +783,7 @@ textarea {
         justify-content: center;
         align-items: center;
         min-height: 100vh;
+        top: 50%;
     }
 
     .to-center {
