@@ -726,3 +726,38 @@ textarea {
     }
 
 }
+
+/* ------------------------------------------------ Tablet view media queries ------------------------------------------------ */
+
+@media only screen and (max-width: 1024px) {
+  
+    #intro {
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    }
+
+    #myself {
+    width: 80%;
+    }
+
+    #myself .image {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    }
+
+    .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+    }
+
+    .to-center {
+    flex-direction: column;
+    align-items: center;
+    }
+
+}
