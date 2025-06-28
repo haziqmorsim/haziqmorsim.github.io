@@ -729,35 +729,63 @@ textarea {
 
 /* ------------------------------------------------ Tablet view media queries ------------------------------------------------ */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
   
     #intro {
-    border-radius: 20px;
-    width: 80%;
-    text-align: center;
+        border-radius: 20px 20px 0 0;
+        width: 80%;
+        text-align: center;
     }
 
     #myself {
-    width: 80%;
+        width: 80%;
     }
 
     #myself .image {
-    border-radius: 20px;
-    max-width: 100%;
-    height: auto;
+        border-radius: 20px 20px 0 0;
+        max-width: 100%;
+        height: auto;
     }
 
     .row {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        gap: 20px;
     }
 
     .to-center {
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
 
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    #intro, #myself {
+        width: auto;
+    }
+
+    #intro {
+        border-radius: 20px 0 0 20px;
+    }
+
+    #myself, .image {
+        border-radius: 0 20px 20px 0;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .row {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .to-center {
+        flex-direction: row;
+        align-items: center;
+    }
 }
