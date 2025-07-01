@@ -752,7 +752,7 @@ textarea {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        margin: auto;
+        margin-top: 5rem;
     }
 
     .to-center {
