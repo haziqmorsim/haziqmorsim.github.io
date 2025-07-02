@@ -788,5 +788,6 @@ textarea {
     .to-center {
         flex-direction: row;
         align-items: center;
+        margin-top: 10rem !important;
     }
 }
