@@ -729,7 +729,7 @@ textarea {
 
 /* ------------------------------------------------ Tablet view media queries ------------------------------------------------ */
 
-@media only screen and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (max-width: 1366px) and (orientation: portrait) {
   
     #intro {
         border-radius: 20px 20px 0 0;
@@ -762,7 +762,7 @@ textarea {
 
 }
 
-@media only screen and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
     
     #intro, #myself {
         width: auto;
@@ -788,6 +788,5 @@ textarea {
     .to-center {
         flex-direction: row;
         align-items: center;
-        margin-top: 10rem !important;
     }
 }
