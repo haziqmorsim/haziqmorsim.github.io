@@ -501,7 +501,7 @@ textarea {
 
 /* ------------------------------------------------ Mobile view media queries ------------------------------------------------ */
 
-@media only screen and (max-width: 852px) {
+@media only screen and (max-width: 768px) {
 
     .button {
         margin: 1rem auto;
@@ -729,7 +729,7 @@ textarea {
 
 /* ------------------------------------------------ Tablet view media queries ------------------------------------------------ */
 
-@media only screen and (max-width: 1366px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
   
     #intro {
         border-radius: 20px 20px 0 0;
@@ -763,7 +763,7 @@ textarea {
 
 }
 
-@media only screen and (max-width: 1366px) and (orientation: landscape) {
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
     
     #intro, #myself {
         width: auto;
