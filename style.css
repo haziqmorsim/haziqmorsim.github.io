@@ -141,6 +141,24 @@ body {
     to {opacity: 1;}
 }
 
+figure {
+    text-align: center;
+    width: 45%;
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    color: #555;
+}
+
 .flex-container {
     display: flex;
     border-radius: 0 0 20px 20px;
@@ -202,6 +220,13 @@ h3, h4, h5 {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.image-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
 }
 
 input {
@@ -538,24 +563,6 @@ textarea {
         margin: 0 auto;
     }
 
-    figure {
-        text-align: center;
-        width: 45%;
-        margin: 0;
-    }
-
-    figure img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    figcaption {
-        font-size: 0.9rem;
-        margin-top: 8px;
-        color: #555;
-    }
-
     .flex-container {
         flex-direction: column;
     }
@@ -583,13 +590,6 @@ textarea {
         border-radius: 10px;
         object-fit: cover;
         margin: 0;
-    }
-
-    .image-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
     }
 
      #intro, #myself {
