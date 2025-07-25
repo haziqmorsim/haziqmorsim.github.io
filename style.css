@@ -156,7 +156,7 @@ figure img {
 figcaption {
     font-size: 0.9rem;
     margin-top: 8px;
-    color: #555;
+    color: #000;
 }
 
 .flex-container {
@@ -223,10 +223,10 @@ h3, h4, h5 {
 }
 
 .image-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 input {
