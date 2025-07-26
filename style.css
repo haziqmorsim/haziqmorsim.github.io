@@ -584,6 +584,10 @@ textarea {
         margin: 0 auto;
     }
 
+    figcaption {
+        font-size: 0.7rem;
+    }
+
     .flex-container {
         flex-direction: column;
     }
