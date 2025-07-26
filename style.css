@@ -64,6 +64,14 @@ body {
 }
 
 .certificate-image {
+    width: 70%;
+    height: auto;
+    border: 2px solid #8c1416;
+}
+
+.certificate-image-landscape {
+    width: 100%;
+    height: auto;
     border: 2px solid #8c1416;
 }
 
@@ -158,8 +166,6 @@ figure {
 }
 
 figure img {
-    width: 70%;
-    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
