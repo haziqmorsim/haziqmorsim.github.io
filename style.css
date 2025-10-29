@@ -286,6 +286,11 @@ input {
     cursor: pointer;
 }
 
+.link {
+    color: #8c1416;
+    border-bottom: 0.1rem solid #8c1416;
+}
+
 .location {
     font-size: medium;
     padding-top: 0;
@@ -377,11 +382,6 @@ nav {
 .paper {
     width: 75%;
     margin: auto;
-}
-
-.pdf {
-    color: #8c1416;
-    border-bottom: 0.1rem solid #8c1416;
 }
 
 .place {
