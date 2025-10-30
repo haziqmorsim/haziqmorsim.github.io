@@ -233,8 +233,12 @@ figcaption {
 .footer-contact {
   text-align: center;
   align-items: center;
-  width: 50px;
   color: #8c1416;
+}
+
+.footer-contact i {
+    width: 50px;
+    color: #8c1416;
 }
 
 .footer-bottom {
