@@ -209,6 +209,10 @@ figcaption {
   font-family: 'Poppins', sans-serif;
 }
 
+.footer-about {
+    color: #fff;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
