@@ -787,13 +787,13 @@ textarea {
   
     #intro {
         border-radius: 20px 20px 0 0;
-        width: 80%;
+        /* width: 80%; */
         text-align: center;
     }
 
-    #myself {
+    /* #myself {
         width: 80%;
-    }
+    } */
 
     #myself .image {
         border-radius: 0 0 20px 20px;
