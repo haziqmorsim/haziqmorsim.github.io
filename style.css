@@ -747,7 +747,7 @@ textarea {
 
     .row {
         width: 90%;
-        padding: 1rem;
+        /* padding: 1rem; */
         margin-top: 0.3rem;
     }
 
@@ -807,7 +807,7 @@ textarea {
         align-items: center;
         gap: 20px;
         margin-top: 0.3rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.3rem;
     }
 
     .to-center {
