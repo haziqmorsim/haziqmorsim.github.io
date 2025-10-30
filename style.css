@@ -746,8 +746,8 @@ textarea {
     }
 
     .row {
-        /* width: 90%; 
-        padding: 1rem; */
+        width: 90%;
+        padding: 1rem;
         margin-top: 0.3rem;
     }
 
@@ -756,9 +756,9 @@ textarea {
         line-height: 1.6;
     }
 
-    /* .to-center {
+    .to-center {
         margin: 0;
-    } */
+    }
 
     #first, #fifth {
         font-size: 1rem;
