@@ -203,10 +203,8 @@ figcaption {
 }
 
 .footer {
-  background-color: #111;
-  color: #eee;
+  color: #fff;
   padding: 40px 20px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .footer-about {
