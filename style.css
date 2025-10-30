@@ -226,28 +226,14 @@ figcaption {
 
 .footer p, .footer a {
   font-size: 0.9rem;
-  color: #ccc;
+  color: #fff;
   text-decoration: none;
 }
 
-.footer a:hover {
-  color: #8c1416; /* your theme color */
-  text-decoration: underline;
-}
-
-.footer ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer ul li {
-  margin-bottom: 8px;
-}
-
-.footer-contact i {
+.footer-contact {
   text-align: center;
   align-items: center;
-  width: 25px;
+  width: 50px;
   color: #8c1416;
 }
 
