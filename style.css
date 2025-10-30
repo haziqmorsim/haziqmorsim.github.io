@@ -212,13 +212,6 @@ figcaption {
     color: #fff;
 }
 
-.footer-container {
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 30px;
-}
-
 .footer h3 {
   color: #fff;
   margin-bottom: 15px;
@@ -237,7 +230,7 @@ figcaption {
 }
 
 .footer-contact i {
-    width: 50px;
+    font-size: 1.2rem;
     color: #8c1416;
 }
 
