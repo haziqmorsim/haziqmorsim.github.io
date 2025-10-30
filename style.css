@@ -202,6 +202,73 @@ figcaption {
     padding: 2rem;
 }
 
+.footer {
+  background-color: #111;
+  color: #eee;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.footer h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer p, .footer a {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #8c1416; /* your theme color */
+  text-decoration: underline;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer-contact i {
+  margin-right: 8px;
+  color: #8c1416;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.back-to-top {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #8c1416;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  color: #fff;
+}
+
 .grade {
     margin-top: 0;
 }
