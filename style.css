@@ -213,7 +213,6 @@ figcaption {
 }
 
 .footer-container {
-  display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
@@ -247,6 +246,7 @@ figcaption {
 
 .footer-contact i {
   text-align: center;
+  align-items: center;
   width: 25px;
   color: #8c1416;
 }
