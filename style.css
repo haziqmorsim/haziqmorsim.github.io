@@ -17,6 +17,19 @@ a.active {
     gap: 50px;
 }
 
+.back-to-top {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #8c1416;
+  width: 25px;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  color: #fff;
+}
+
 body {
     background-image: url("images/background.png");
     background-position: center;
@@ -239,19 +252,6 @@ figcaption {
   padding-top: 20px;
   margin-top: 30px;
   position: relative;
-}
-
-.back-to-top {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  color: #8c1416;
-  width: 25px;
-  text-decoration: none;
-}
-
-.back-to-top:hover {
-  color: #fff;
 }
 
 .grade {
