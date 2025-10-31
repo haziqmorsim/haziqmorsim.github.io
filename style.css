@@ -219,11 +219,6 @@ figcaption {
   color: #fff;
 }
 
-.footer-about {
-    text-align: center;
-    color: #fff;
-}
-
 .footer h3 {
   color: #fff;
   margin-bottom: 15px;
@@ -672,7 +667,7 @@ textarea {
         text-align: left;
     }
 
-     h1, h2, h3 {
+    h1, h2, h3 {
         font-size: 1.5rem;
     }
 
@@ -684,7 +679,7 @@ textarea {
         margin: 0;
     }
 
-     #intro, #myself {
+    #intro, #myself {
         width: 100%;
         padding: 1rem;
     }
@@ -711,7 +706,7 @@ textarea {
         height: 25px;
     }
 
-     #myself {
+    #myself {
         border-radius: 0 0 10px 10px;
     }
 
@@ -739,7 +734,7 @@ textarea {
         display: none;
     }
 
-     .paper {
+    .paper {
         width: 90%;
         padding: 1rem;
     }
@@ -795,6 +790,14 @@ textarea {
         padding: 1rem;
     }
 
+    #resume-left {
+        border-bottom-left-radius: 0; 
+    }
+
+    #resume-right {
+        border-bottom-right-radius: 0;
+    }
+
     #resume-photo {
         width: 80px;
         height: 80px;
@@ -811,11 +814,10 @@ textarea {
 
     .row {
         width: 90%;
-        /* padding: 1rem; */
         margin-top: 0.3rem;
     }
 
-     .summary {
+    .summary {
         font-size: 1rem;
         line-height: 1.6;
     }
@@ -851,18 +853,21 @@ textarea {
   
     #intro {
         border-radius: 20px 20px 0 0;
-        /* width: 80%; */
         text-align: center;
     }
-
-    /* #myself {
-        width: 80%;
-    } */
 
     #myself .image {
         border-radius: 0 0 20px 20px;
         max-width: 100%;
         height: auto;
+    }
+
+    #resume-left {
+        border-bottom-left-radius: 20px;
+    }
+
+    #resume-right {
+        border-bottom-right-radius: 20px;
     }
 
     .row {
