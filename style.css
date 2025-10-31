@@ -863,11 +863,11 @@ textarea {
     }
 
     #resume-left {
-        border-bottom-left-radius: 20px;
+        border-bottom-left-radius: 0;
     }
 
     #resume-right {
-        border-bottom-right-radius: 20px;
+        border-bottom-right-radius: 0;
     }
 
     .row {
