@@ -506,6 +506,14 @@ nav {
     border-radius: 20px 20px 0px 0px;
 }
 
+#resume-left {
+    border-bottom-left-radius: 20px;
+}
+
+#resume-right {
+    border-bottom-right-radius: 20px;
+}
+
 #resume-photo {
     width: 10%;
     border: solid 2px #8c1416;
