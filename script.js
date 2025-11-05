@@ -13,7 +13,6 @@ function currentSlide(n, project) {
     showSlides(n, project);
 }
 
-
 function showSlides(n, project) {
   let slides = document.querySelectorAll(`.slides[data-project="${project}"]`);
   let dots = document.querySelectorAll(`.dot[data-project="${project}"]`);
@@ -47,3 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   initSlides("project3");
 });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   initSlides("project6")
+// })
